@@ -1,0 +1,6 @@
+framework module Pods_SDKAddediOS {
+  umbrella header "Pods-SDKAddediOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

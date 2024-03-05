@@ -7,18 +7,179 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021003982B91E95D004E2854 /* WeScan.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021003962B91E94B004E2854 /* WeScan.xcframework */; };
+		021003992B91E95D004E2854 /* WeScan.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 021003962B91E94B004E2854 /* WeScan.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		022010FC2B904EFF00AE627A /* SDKAddediOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022010FB2B904EFF00AE627A /* SDKAddediOSApp.swift */; };
 		022010FE2B904EFF00AE627A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022010FD2B904EFF00AE627A /* ContentView.swift */; };
 		022011002B904F0000AE627A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022010FF2B904F0000AE627A /* Assets.xcassets */; };
 		022011032B904F0000AE627A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022011022B904F0000AE627A /* Preview Assets.xcassets */; };
+		027069D62B90717A00BDD82B /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069D42B9070C600BDD82B /* App.xcframework */; };
+		027069D72B90717A00BDD82B /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069D42B9070C600BDD82B /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A212B90725F00BDD82B /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E32B9071CB00BDD82B /* Flutter.xcframework */; };
+		02706A222B90726100BDD82B /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E32B9071CB00BDD82B /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A232B90728B00BDD82B /* image_cropper.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F42B9071D100BDD82B /* image_cropper.xcframework */; };
+		02706A242B90728C00BDD82B /* image_cropper.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F42B9071D100BDD82B /* image_cropper.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A252B9072AB00BDD82B /* Reachability.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069FE2B9071D500BDD82B /* Reachability.xcframework */; };
+		02706A262B9072AD00BDD82B /* Reachability.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069FE2B9071D500BDD82B /* Reachability.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A272B9072D600BDD82B /* device_info_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069DA2B9071AB00BDD82B /* device_info_plus.xcframework */; };
+		02706A282B9072D800BDD82B /* device_info_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069DA2B9071AB00BDD82B /* device_info_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A292B9072DE00BDD82B /* connectivity.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069D92B9071AB00BDD82B /* connectivity.xcframework */; };
+		02706A2A2B9072E000BDD82B /* connectivity.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069D92B9071AB00BDD82B /* connectivity.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A2B2B9072E500BDD82B /* easy_pdf_viewer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069EC2B9071CE00BDD82B /* easy_pdf_viewer.xcframework */; };
+		02706A2C2B9072E700BDD82B /* easy_pdf_viewer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069EC2B9071CE00BDD82B /* easy_pdf_viewer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A2F2B90730C00BDD82B /* permission_handler_apple.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F02B9071D000BDD82B /* permission_handler_apple.xcframework */; };
+		02706A332B90737900BDD82B /* package_info_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069EA2B9071CD00BDD82B /* package_info_plus.xcframework */; };
+		02706A342B90737B00BDD82B /* package_info_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069EA2B9071CD00BDD82B /* package_info_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A352B90738500BDD82B /* path_provider_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069EF2B9071CF00BDD82B /* path_provider_foundation.xcframework */; };
+		02706A362B90738700BDD82B /* path_provider_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069EF2B9071CF00BDD82B /* path_provider_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A372B90742300BDD82B /* sqflite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069EB2B9071CE00BDD82B /* sqflite.xcframework */; };
+		02706A382B90742500BDD82B /* sqflite.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069EB2B9071CE00BDD82B /* sqflite.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A392B90743100BDD82B /* DKImagePickerController.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E02B9071CA00BDD82B /* DKImagePickerController.xcframework */; };
+		02706A3A2B90743300BDD82B /* DKImagePickerController.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E02B9071CA00BDD82B /* DKImagePickerController.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A3B2B90743A00BDD82B /* DKPhotoGallery.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F12B9071D000BDD82B /* DKPhotoGallery.xcframework */; };
+		02706A3C2B90743C00BDD82B /* DKPhotoGallery.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F12B9071D000BDD82B /* DKPhotoGallery.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A3D2B90746400BDD82B /* geolocator_apple.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069DF2B9071C900BDD82B /* geolocator_apple.xcframework */; };
+		02706A3E2B90746700BDD82B /* geolocator_apple.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069DF2B9071C900BDD82B /* geolocator_apple.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A3F2B90747100BDD82B /* image_editor_common.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E52B9071CC00BDD82B /* image_editor_common.xcframework */; };
+		02706A402B90747300BDD82B /* image_editor_common.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E52B9071CC00BDD82B /* image_editor_common.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A412B90747B00BDD82B /* image_picker_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E82B9071CD00BDD82B /* image_picker_ios.xcframework */; };
+		02706A422B90747E00BDD82B /* image_picker_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E82B9071CD00BDD82B /* image_picker_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A432B9074B100BDD82B /* file_picker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F92B9071D300BDD82B /* file_picker.xcframework */; };
+		02706A442B9074B300BDD82B /* file_picker.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F92B9071D300BDD82B /* file_picker.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A452B9074BB00BDD82B /* flutter_image_compress_common.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E12B9071CA00BDD82B /* flutter_image_compress_common.xcframework */; };
+		02706A462B9074BD00BDD82B /* flutter_image_compress_common.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E12B9071CA00BDD82B /* flutter_image_compress_common.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A472B9074C400BDD82B /* flutter_inappwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F32B9071D100BDD82B /* flutter_inappwebview.xcframework */; };
+		02706A482B9074C700BDD82B /* flutter_inappwebview.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F32B9071D100BDD82B /* flutter_inappwebview.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A492B9074CF00BDD82B /* flutter_localization.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069DD2B9071C900BDD82B /* flutter_localization.xcframework */; };
+		02706A4A2B9074D100BDD82B /* flutter_localization.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069DD2B9071C900BDD82B /* flutter_localization.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A4B2B9074D800BDD82B /* flutter_udid.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E62B9071CC00BDD82B /* flutter_udid.xcframework */; };
+		02706A4C2B9074DB00BDD82B /* flutter_udid.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E62B9071CC00BDD82B /* flutter_udid.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A512B90753B00BDD82B /* FMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069ED2B9071CE00BDD82B /* FMDB.xcframework */; };
+		02706A522B90753E00BDD82B /* FMDB.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069ED2B9071CE00BDD82B /* FMDB.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A532B90754C00BDD82B /* edge_detection.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F72B9071D200BDD82B /* edge_detection.xcframework */; };
+		02706A542B90754F00BDD82B /* edge_detection.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F72B9071D200BDD82B /* edge_detection.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A552B90757A00BDD82B /* SAMKeychain.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E42B9071CB00BDD82B /* SAMKeychain.xcframework */; };
+		02706A562B90757D00BDD82B /* SAMKeychain.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E42B9071CB00BDD82B /* SAMKeychain.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A572B90758500BDD82B /* SDWebImage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069FB2B9071D400BDD82B /* SDWebImage.xcframework */; };
+		02706A582B90758800BDD82B /* SDWebImage.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069FB2B9071D400BDD82B /* SDWebImage.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A592B90759100BDD82B /* SDWebImageWebPCoder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069DE2B9071C900BDD82B /* SDWebImageWebPCoder.xcframework */; };
+		02706A5A2B90759400BDD82B /* SDWebImageWebPCoder.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069DE2B9071C900BDD82B /* SDWebImageWebPCoder.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A5B2B9075B200BDD82B /* shared_preferences_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069EE2B9071CF00BDD82B /* shared_preferences_foundation.xcframework */; };
+		02706A5C2B9075B500BDD82B /* shared_preferences_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069EE2B9071CF00BDD82B /* shared_preferences_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A5D2B9075BD00BDD82B /* smart_auth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F62B9071D200BDD82B /* smart_auth.xcframework */; };
+		02706A5E2B9075C000BDD82B /* smart_auth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F62B9071D200BDD82B /* smart_auth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A5F2B9075C800BDD82B /* SwiftyGif.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F82B9071D200BDD82B /* SwiftyGif.xcframework */; };
+		02706A602B9075CC00BDD82B /* SwiftyGif.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F82B9071D200BDD82B /* SwiftyGif.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A612B9077B300BDD82B /* TOCropViewController.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E72B9071CC00BDD82B /* TOCropViewController.xcframework */; };
+		02706A622B9077B600BDD82B /* TOCropViewController.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E72B9071CC00BDD82B /* TOCropViewController.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A632B9077BF00BDD82B /* video_player_avfoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F22B9071D000BDD82B /* video_player_avfoundation.xcframework */; };
+		02706A642B9077C200BDD82B /* video_player_avfoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F22B9071D000BDD82B /* video_player_avfoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A672B9077DB00BDD82B /* video_thumbnail.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E22B9071CA00BDD82B /* video_thumbnail.xcframework */; };
+		02706A682B9077DE00BDD82B /* video_thumbnail.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E22B9071CA00BDD82B /* video_thumbnail.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A692B90781300BDD82B /* libwebp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E92B9071CD00BDD82B /* libwebp.xcframework */; };
+		02706A6A2B90781600BDD82B /* libwebp.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069E92B9071CD00BDD82B /* libwebp.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A6B2B90781F00BDD82B /* Mantle.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069FA2B9071D300BDD82B /* Mantle.xcframework */; };
+		02706A6C2B90782300BDD82B /* Mantle.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069FA2B9071D300BDD82B /* Mantle.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02706A6D2B90782E00BDD82B /* OrderedSet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069FC2B9071D400BDD82B /* OrderedSet.xcframework */; };
+		02706A6E2B90783100BDD82B /* OrderedSet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 027069FC2B9071D400BDD82B /* OrderedSet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		029E9BCC2B95E52C00FE1E00 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027069F52B9071D100BDD82B /* FlutterPluginRegistrant.xcframework */; };
+		BA31940DA60105EAE55D27E8 /* Pods_SDKAddediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58755F0E62AF62D1EEFB0528 /* Pods_SDKAddediOS.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		027069D82B90717A00BDD82B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				02706A6C2B90782300BDD82B /* Mantle.xcframework in Embed Frameworks */,
+				02706A482B9074C700BDD82B /* flutter_inappwebview.xcframework in Embed Frameworks */,
+				02706A2A2B9072E000BDD82B /* connectivity.xcframework in Embed Frameworks */,
+				02706A5C2B9075B500BDD82B /* shared_preferences_foundation.xcframework in Embed Frameworks */,
+				02706A362B90738700BDD82B /* path_provider_foundation.xcframework in Embed Frameworks */,
+				02706A602B9075CC00BDD82B /* SwiftyGif.xcframework in Embed Frameworks */,
+				02706A3E2B90746700BDD82B /* geolocator_apple.xcframework in Embed Frameworks */,
+				02706A262B9072AD00BDD82B /* Reachability.xcframework in Embed Frameworks */,
+				02706A2C2B9072E700BDD82B /* easy_pdf_viewer.xcframework in Embed Frameworks */,
+				02706A4C2B9074DB00BDD82B /* flutter_udid.xcframework in Embed Frameworks */,
+				02706A4A2B9074D100BDD82B /* flutter_localization.xcframework in Embed Frameworks */,
+				02706A6A2B90781600BDD82B /* libwebp.xcframework in Embed Frameworks */,
+				02706A382B90742500BDD82B /* sqflite.xcframework in Embed Frameworks */,
+				02706A5A2B90759400BDD82B /* SDWebImageWebPCoder.xcframework in Embed Frameworks */,
+				02706A682B9077DE00BDD82B /* video_thumbnail.xcframework in Embed Frameworks */,
+				02706A422B90747E00BDD82B /* image_picker_ios.xcframework in Embed Frameworks */,
+				02706A222B90726100BDD82B /* Flutter.xcframework in Embed Frameworks */,
+				02706A642B9077C200BDD82B /* video_player_avfoundation.xcframework in Embed Frameworks */,
+				02706A622B9077B600BDD82B /* TOCropViewController.xcframework in Embed Frameworks */,
+				02706A282B9072D800BDD82B /* device_info_plus.xcframework in Embed Frameworks */,
+				02706A522B90753E00BDD82B /* FMDB.xcframework in Embed Frameworks */,
+				021003992B91E95D004E2854 /* WeScan.xcframework in Embed Frameworks */,
+				02706A582B90758800BDD82B /* SDWebImage.xcframework in Embed Frameworks */,
+				02706A562B90757D00BDD82B /* SAMKeychain.xcframework in Embed Frameworks */,
+				02706A242B90728C00BDD82B /* image_cropper.xcframework in Embed Frameworks */,
+				02706A6E2B90783100BDD82B /* OrderedSet.xcframework in Embed Frameworks */,
+				02706A3A2B90743300BDD82B /* DKImagePickerController.xcframework in Embed Frameworks */,
+				02706A442B9074B300BDD82B /* file_picker.xcframework in Embed Frameworks */,
+				02706A342B90737B00BDD82B /* package_info_plus.xcframework in Embed Frameworks */,
+				02706A402B90747300BDD82B /* image_editor_common.xcframework in Embed Frameworks */,
+				02706A542B90754F00BDD82B /* edge_detection.xcframework in Embed Frameworks */,
+				02706A3C2B90743C00BDD82B /* DKPhotoGallery.xcframework in Embed Frameworks */,
+				027069D72B90717A00BDD82B /* App.xcframework in Embed Frameworks */,
+				02706A462B9074BD00BDD82B /* flutter_image_compress_common.xcframework in Embed Frameworks */,
+				02706A5E2B9075C000BDD82B /* smart_auth.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		022010F82B904EFF00AE627A /* SDKAddediOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKAddediOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		021003962B91E94B004E2854 /* WeScan.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WeScan.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/WeScan.xcframework; sourceTree = "<group>"; };
 		022010FB2B904EFF00AE627A /* SDKAddediOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKAddediOSApp.swift; sourceTree = "<group>"; };
 		022010FD2B904EFF00AE627A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		022010FF2B904F0000AE627A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		022011022B904F0000AE627A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		027069D42B9070C600BDD82B /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/App.xcframework; sourceTree = "<group>"; };
+		027069D92B9071AB00BDD82B /* connectivity.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = connectivity.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/connectivity.xcframework; sourceTree = "<group>"; };
+		027069DA2B9071AB00BDD82B /* device_info_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = device_info_plus.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/device_info_plus.xcframework; sourceTree = "<group>"; };
+		027069DD2B9071C900BDD82B /* flutter_localization.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = flutter_localization.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/flutter_localization.xcframework; sourceTree = "<group>"; };
+		027069DE2B9071C900BDD82B /* SDWebImageWebPCoder.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDWebImageWebPCoder.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/SDWebImageWebPCoder.xcframework; sourceTree = "<group>"; };
+		027069DF2B9071C900BDD82B /* geolocator_apple.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = geolocator_apple.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/geolocator_apple.xcframework; sourceTree = "<group>"; };
+		027069E02B9071CA00BDD82B /* DKImagePickerController.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DKImagePickerController.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/DKImagePickerController.xcframework; sourceTree = "<group>"; };
+		027069E12B9071CA00BDD82B /* flutter_image_compress_common.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = flutter_image_compress_common.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/flutter_image_compress_common.xcframework; sourceTree = "<group>"; };
+		027069E22B9071CA00BDD82B /* video_thumbnail.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = video_thumbnail.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/video_thumbnail.xcframework; sourceTree = "<group>"; };
+		027069E32B9071CB00BDD82B /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/Flutter.xcframework; sourceTree = "<group>"; };
+		027069E42B9071CB00BDD82B /* SAMKeychain.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAMKeychain.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/SAMKeychain.xcframework; sourceTree = "<group>"; };
+		027069E52B9071CC00BDD82B /* image_editor_common.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = image_editor_common.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/image_editor_common.xcframework; sourceTree = "<group>"; };
+		027069E62B9071CC00BDD82B /* flutter_udid.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = flutter_udid.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/flutter_udid.xcframework; sourceTree = "<group>"; };
+		027069E72B9071CC00BDD82B /* TOCropViewController.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TOCropViewController.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/TOCropViewController.xcframework; sourceTree = "<group>"; };
+		027069E82B9071CD00BDD82B /* image_picker_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = image_picker_ios.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/image_picker_ios.xcframework; sourceTree = "<group>"; };
+		027069E92B9071CD00BDD82B /* libwebp.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libwebp.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/libwebp.xcframework; sourceTree = "<group>"; };
+		027069EA2B9071CD00BDD82B /* package_info_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = package_info_plus.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/package_info_plus.xcframework; sourceTree = "<group>"; };
+		027069EB2B9071CE00BDD82B /* sqflite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = sqflite.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/sqflite.xcframework; sourceTree = "<group>"; };
+		027069EC2B9071CE00BDD82B /* easy_pdf_viewer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = easy_pdf_viewer.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/easy_pdf_viewer.xcframework; sourceTree = "<group>"; };
+		027069ED2B9071CE00BDD82B /* FMDB.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FMDB.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/FMDB.xcframework; sourceTree = "<group>"; };
+		027069EE2B9071CF00BDD82B /* shared_preferences_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = shared_preferences_foundation.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/shared_preferences_foundation.xcframework; sourceTree = "<group>"; };
+		027069EF2B9071CF00BDD82B /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_foundation.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/path_provider_foundation.xcframework; sourceTree = "<group>"; };
+		027069F02B9071D000BDD82B /* permission_handler_apple.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = permission_handler_apple.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/permission_handler_apple.xcframework; sourceTree = "<group>"; };
+		027069F12B9071D000BDD82B /* DKPhotoGallery.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DKPhotoGallery.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/DKPhotoGallery.xcframework; sourceTree = "<group>"; };
+		027069F22B9071D000BDD82B /* video_player_avfoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = video_player_avfoundation.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/video_player_avfoundation.xcframework; sourceTree = "<group>"; };
+		027069F32B9071D100BDD82B /* flutter_inappwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = flutter_inappwebview.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/flutter_inappwebview.xcframework; sourceTree = "<group>"; };
+		027069F42B9071D100BDD82B /* image_cropper.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = image_cropper.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/image_cropper.xcframework; sourceTree = "<group>"; };
+		027069F52B9071D100BDD82B /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		027069F62B9071D200BDD82B /* smart_auth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = smart_auth.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/smart_auth.xcframework; sourceTree = "<group>"; };
+		027069F72B9071D200BDD82B /* edge_detection.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = edge_detection.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/edge_detection.xcframework; sourceTree = "<group>"; };
+		027069F82B9071D200BDD82B /* SwiftyGif.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftyGif.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/SwiftyGif.xcframework; sourceTree = "<group>"; };
+		027069F92B9071D300BDD82B /* file_picker.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = file_picker.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/file_picker.xcframework; sourceTree = "<group>"; };
+		027069FA2B9071D300BDD82B /* Mantle.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Mantle.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/Mantle.xcframework; sourceTree = "<group>"; };
+		027069FB2B9071D400BDD82B /* SDWebImage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDWebImage.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/SDWebImage.xcframework; sourceTree = "<group>"; };
+		027069FC2B9071D400BDD82B /* OrderedSet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OrderedSet.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/OrderedSet.xcframework; sourceTree = "<group>"; };
+		027069FE2B9071D500BDD82B /* Reachability.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Reachability.xcframework; path = ../../../EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release/Reachability.xcframework; sourceTree = "<group>"; };
+		029E9BCB2B95BFFF00FE1E00 /* SDKAddediOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKAddediOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58755F0E62AF62D1EEFB0528 /* Pods_SDKAddediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDKAddediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A138C1D99E81C572BC04309C /* Pods-SDKAddediOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKAddediOS.release.xcconfig"; path = "Target Support Files/Pods-SDKAddediOS/Pods-SDKAddediOS.release.xcconfig"; sourceTree = "<group>"; };
+		A1D0A8951D93519DB8003BE1 /* Pods-SDKAddediOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKAddediOS.debug.xcconfig"; path = "Target Support Files/Pods-SDKAddediOS/Pods-SDKAddediOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +187,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02706A612B9077B300BDD82B /* TOCropViewController.xcframework in Frameworks */,
+				02706A352B90738500BDD82B /* path_provider_foundation.xcframework in Frameworks */,
+				02706A5F2B9075C800BDD82B /* SwiftyGif.xcframework in Frameworks */,
+				02706A332B90737900BDD82B /* package_info_plus.xcframework in Frameworks */,
+				02706A292B9072DE00BDD82B /* connectivity.xcframework in Frameworks */,
+				02706A512B90753B00BDD82B /* FMDB.xcframework in Frameworks */,
+				02706A2F2B90730C00BDD82B /* permission_handler_apple.xcframework in Frameworks */,
+				02706A6D2B90782E00BDD82B /* OrderedSet.xcframework in Frameworks */,
+				02706A6B2B90781F00BDD82B /* Mantle.xcframework in Frameworks */,
+				02706A252B9072AB00BDD82B /* Reachability.xcframework in Frameworks */,
+				02706A212B90725F00BDD82B /* Flutter.xcframework in Frameworks */,
+				02706A5B2B9075B200BDD82B /* shared_preferences_foundation.xcframework in Frameworks */,
+				02706A592B90759100BDD82B /* SDWebImageWebPCoder.xcframework in Frameworks */,
+				02706A472B9074C400BDD82B /* flutter_inappwebview.xcframework in Frameworks */,
+				02706A5D2B9075BD00BDD82B /* smart_auth.xcframework in Frameworks */,
+				02706A692B90781300BDD82B /* libwebp.xcframework in Frameworks */,
+				02706A552B90757A00BDD82B /* SAMKeychain.xcframework in Frameworks */,
+				02706A2B2B9072E500BDD82B /* easy_pdf_viewer.xcframework in Frameworks */,
+				02706A4B2B9074D800BDD82B /* flutter_udid.xcframework in Frameworks */,
+				02706A3B2B90743A00BDD82B /* DKPhotoGallery.xcframework in Frameworks */,
+				02706A492B9074CF00BDD82B /* flutter_localization.xcframework in Frameworks */,
+				02706A272B9072D600BDD82B /* device_info_plus.xcframework in Frameworks */,
+				02706A232B90728B00BDD82B /* image_cropper.xcframework in Frameworks */,
+				02706A3D2B90746400BDD82B /* geolocator_apple.xcframework in Frameworks */,
+				02706A412B90747B00BDD82B /* image_picker_ios.xcframework in Frameworks */,
+				02706A452B9074BB00BDD82B /* flutter_image_compress_common.xcframework in Frameworks */,
+				02706A672B9077DB00BDD82B /* video_thumbnail.xcframework in Frameworks */,
+				02706A3F2B90747100BDD82B /* image_editor_common.xcframework in Frameworks */,
+				029E9BCC2B95E52C00FE1E00 /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				02706A632B9077BF00BDD82B /* video_player_avfoundation.xcframework in Frameworks */,
+				02706A392B90743100BDD82B /* DKImagePickerController.xcframework in Frameworks */,
+				02706A532B90754C00BDD82B /* edge_detection.xcframework in Frameworks */,
+				027069D62B90717A00BDD82B /* App.xcframework in Frameworks */,
+				02706A432B9074B100BDD82B /* file_picker.xcframework in Frameworks */,
+				02706A372B90742300BDD82B /* sqflite.xcframework in Frameworks */,
+				021003982B91E95D004E2854 /* WeScan.xcframework in Frameworks */,
+				02706A572B90758500BDD82B /* SDWebImage.xcframework in Frameworks */,
+				BA31940DA60105EAE55D27E8 /* Pods_SDKAddediOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,21 +235,52 @@
 			isa = PBXGroup;
 			children = (
 				022010FA2B904EFF00AE627A /* SDKAddediOS */,
-				022010F92B904EFF00AE627A /* Products */,
+				029E9BCB2B95BFFF00FE1E00 /* SDKAddediOS.app */,
+				63F49FD639B3A2DDC033D74A /* Pods */,
+				BC91F609F7D90FBF5C488071 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		022010F92B904EFF00AE627A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				022010F82B904EFF00AE627A /* SDKAddediOS.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		022010FA2B904EFF00AE627A /* SDKAddediOS */ = {
 			isa = PBXGroup;
 			children = (
+				027069D92B9071AB00BDD82B /* connectivity.xcframework */,
+				027069DA2B9071AB00BDD82B /* device_info_plus.xcframework */,
+				027069D42B9070C600BDD82B /* App.xcframework */,
+				027069E02B9071CA00BDD82B /* DKImagePickerController.xcframework */,
+				027069F12B9071D000BDD82B /* DKPhotoGallery.xcframework */,
+				027069EC2B9071CE00BDD82B /* easy_pdf_viewer.xcframework */,
+				021003962B91E94B004E2854 /* WeScan.xcframework */,
+				027069F72B9071D200BDD82B /* edge_detection.xcframework */,
+				027069F92B9071D300BDD82B /* file_picker.xcframework */,
+				027069E12B9071CA00BDD82B /* flutter_image_compress_common.xcframework */,
+				027069F32B9071D100BDD82B /* flutter_inappwebview.xcframework */,
+				027069DD2B9071C900BDD82B /* flutter_localization.xcframework */,
+				027069E62B9071CC00BDD82B /* flutter_udid.xcframework */,
+				027069E32B9071CB00BDD82B /* Flutter.xcframework */,
+				027069F52B9071D100BDD82B /* FlutterPluginRegistrant.xcframework */,
+				027069ED2B9071CE00BDD82B /* FMDB.xcframework */,
+				027069DF2B9071C900BDD82B /* geolocator_apple.xcframework */,
+				027069F42B9071D100BDD82B /* image_cropper.xcframework */,
+				027069E52B9071CC00BDD82B /* image_editor_common.xcframework */,
+				027069E82B9071CD00BDD82B /* image_picker_ios.xcframework */,
+				027069E92B9071CD00BDD82B /* libwebp.xcframework */,
+				027069FA2B9071D300BDD82B /* Mantle.xcframework */,
+				027069FC2B9071D400BDD82B /* OrderedSet.xcframework */,
+				027069EA2B9071CD00BDD82B /* package_info_plus.xcframework */,
+				027069EF2B9071CF00BDD82B /* path_provider_foundation.xcframework */,
+				027069F02B9071D000BDD82B /* permission_handler_apple.xcframework */,
+				027069FE2B9071D500BDD82B /* Reachability.xcframework */,
+				027069E42B9071CB00BDD82B /* SAMKeychain.xcframework */,
+				027069FB2B9071D400BDD82B /* SDWebImage.xcframework */,
+				027069DE2B9071C900BDD82B /* SDWebImageWebPCoder.xcframework */,
+				027069EE2B9071CF00BDD82B /* shared_preferences_foundation.xcframework */,
+				027069F62B9071D200BDD82B /* smart_auth.xcframework */,
+				027069EB2B9071CE00BDD82B /* sqflite.xcframework */,
+				027069F82B9071D200BDD82B /* SwiftyGif.xcframework */,
+				027069E72B9071CC00BDD82B /* TOCropViewController.xcframework */,
+				027069F22B9071D000BDD82B /* video_player_avfoundation.xcframework */,
+				027069E22B9071CA00BDD82B /* video_thumbnail.xcframework */,
 				022010FB2B904EFF00AE627A /* SDKAddediOSApp.swift */,
 				022010FD2B904EFF00AE627A /* ContentView.swift */,
 				022010FF2B904F0000AE627A /* Assets.xcassets */,
@@ -67,6 +297,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		63F49FD639B3A2DDC033D74A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1D0A8951D93519DB8003BE1 /* Pods-SDKAddediOS.debug.xcconfig */,
+				A138C1D99E81C572BC04309C /* Pods-SDKAddediOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC91F609F7D90FBF5C488071 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58755F0E62AF62D1EEFB0528 /* Pods_SDKAddediOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +322,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 022011062B904F0000AE627A /* Build configuration list for PBXNativeTarget "SDKAddediOS" */;
 			buildPhases = (
+				2C4FB5A1C88819EC99FCFF8E /* [CP] Check Pods Manifest.lock */,
 				022010F42B904EFF00AE627A /* Sources */,
 				022010F52B904EFF00AE627A /* Frameworks */,
 				022010F62B904EFF00AE627A /* Resources */,
+				027069D82B90717A00BDD82B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +334,7 @@
 			);
 			name = SDKAddediOS;
 			productName = SDKAddediOS;
-			productReference = 022010F82B904EFF00AE627A /* SDKAddediOS.app */;
+			productReference = 029E9BCB2B95BFFF00FE1E00 /* SDKAddediOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +361,7 @@
 				Base,
 			);
 			mainGroup = 022010EF2B904EFF00AE627A;
-			productRefGroup = 022010F92B904EFF00AE627A /* Products */;
+			productRefGroup = 022010EF2B904EFF00AE627A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -131,6 +381,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C4FB5A1C88819EC99FCFF8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDKAddediOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		022010F42B904EFF00AE627A /* Sources */ = {
@@ -195,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,6 +536,7 @@
 		};
 		022011072B904F0000AE627A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D0A8951D93519DB8003BE1 /* Pods-SDKAddediOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -269,12 +545,17 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SDKAddediOS/Preview Content\"";
 				DEVELOPMENT_TEAM = YDXM7G7HZ4;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/dimuthu/EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Release;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To get Profile picture access";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To get images";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To view images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +571,7 @@
 		};
 		022011082B904F0000AE627A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A138C1D99E81C572BC04309C /* Pods-SDKAddediOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -298,12 +580,17 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SDKAddediOS/Preview Content\"";
 				DEVELOPMENT_TEAM = YDXM7G7HZ4;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/dimuthu/EpicLanka/Projects/seylan_ekyc_digi_face/build/ios/framework/Debug;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To get Profile picture access";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To get images";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To view images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
